@@ -1,0 +1,21 @@
+1/2/2018 Version 2: Changed the number of bins, minimum and maximum limits of histogram in proton.mac.
+
+1/2/2018 Version 3: Changed the type of fNbElectronsStrip1, fNbElectronsStrip2 in RunAction.hh from G4double to G4int.
+
+22/2/2018 Version 4: Added two couples of BPIX modules (one in front of and one behind the DUT). Calculating the entrance point of the primary proton inside Pixel Detector 1 and its exit point from Pixel Detector 2.
+
+23/2/2018 Version 5: Decreased the thickness of pixel modules. Calculating the deflection angle of the primary track between the two pixel modules and filling with it histogram 84.
+
+1/3/2018 Version 6: Local electric field added to each strip sensor. Global electric field could be added through ElectricFieldSetup.
+
+7/3/2018 Version 7: Positions of primary inside strip sensors 1 and 2 displayed.
+
+9/3/2018 Version 8: Midpoints of primary inside each detector displayed.
+
+13/3/2018 Version 9: Let A = fPointPix1mid, B = fPointDet1mid, C = fPointDet2mid, D = fPointPix2mid. Let dB = distance between B and AD and dC = distance between C and AD. Histograms filled with dB and dC for each event.
+
+13/3/2018 Version 10: Let B' be the AD point with same z as B. Let C' be the AD point with the same z as C. Histograms filled with B'Bx, B'By, C'Cx, C'Cy for each event.
+
+13/3/2018 Version 11: Bug in filling the histograms per strip fixed.
+
+15/3/2018 Version 12: World material changed to air.
